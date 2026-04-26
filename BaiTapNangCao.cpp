@@ -60,8 +60,8 @@ int main() {
     // Kiểm tra với M = 3
     cout << "Voi M = 3: Nguoi chien thang la " << TimNguoiChienThang(n, 3) << endl;
 //Thử với n rất lớn
-    int nRatLon = 1000;
-    cout << "\nKiem tra voi N lon (1000), M = 1: ";
+    int nRatLon = 100005;
+    cout << "\nKiem tra voi N lon, M = 1: ";
     cout << TimNguoiChienThang(nRatLon, 1) << endl;
 
     return 0;
