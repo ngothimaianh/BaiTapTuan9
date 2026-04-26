@@ -1,5 +1,4 @@
 #include <iostream>
-#include <string.h>
 using namespace std;
 // Khai báo cấu trúc dữ liệu
 struct Ngay {
@@ -170,7 +169,7 @@ void XoaSVTrungNgaySinh(List &l) {
             ht = ht->link;
         }
     }
-    cout << "\nDa loai bo cac sinh vien co cung ngay sinh!" << endl;
+    cout << "\nDa loai bo cac sinh vien co cung ngay sinh." << endl;
 }
 int main() {
     List l; DanhSachRong(l);
